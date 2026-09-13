@@ -1,0 +1,129 @@
+body{
+    background-color: #bbbbbb;
+    background-image: url(i/eyes.png);
+    image-rendering: pixelated;
+    background-size: 30%;
+    margin: 0px;
+}
+.main{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 23.3vw;
+    background-color: #bbbbbb;
+    min-height: 100vw;
+    border: 0.5vw solid #bbbbbb;
+    border-radius: 1vw;
+}
+header{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: #cccccc;
+    min-height: 20vw;
+    background-image: url(i/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    image-rendering: pixelated;
+}
+nav{
+    position: sticky;
+    background-color: #4774d6;
+    top: 0;
+    width: 100%;
+    margin: 0.1vw;
+    min-height: 1.5vw;
+}
+span.forbidden{
+    color: #dddbd2;
+    font-style: italic;
+}
+span.angelic{
+    color: #ffc354;
+    font-style: italic;
+}
+span.sin{
+    color: rgb(153, 13, 13);
+    font-style: italic;
+}
+.whdm{
+    border: 0.72vw solid #4774d6;
+    border-radius: 0.5vw;
+    background-color: #4774d6;
+}
+.whdm-inset{
+    border: 0.5vw solid #d9e5ff;
+    border-radius: 0.25vw;
+    background-color: #d9e5ff;
+}
+.char{
+    border: 0.72vw solid #616161;
+    border-radius: 0.5vw;
+    background-color: #616161;
+}
+.char-inset{
+    border: 0.5vw solid #9c9c9c;
+    border-radius: 0.25vw;
+    background-color: #9c9c9c;
+}
+img{
+    image-rendering: pixelated;
+}
+button{
+    border-radius: 12px;
+}
+h1{
+    font-size: 8vw;
+    color: #a12121;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+.subheading{
+    font-size: 1.5vw;
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    font-size: 3vw;
+    margin-bottom: 0.3vw;
+    margin-top: 0.75vw;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th.manif{
+    border: 0.3vw solid #700000;
+    border-radius: 0.15vw;
+    border-collapse: collapse;
+    font-size: 1.5vw;
+}
+th.awak{
+    border: 0.3vw solid #f7d597;
+    border-radius: 0.15vw;
+    border-collapse: collapse;
+    font-size: 1.5vw;
+}
+a{
+    background-color: #4774d6;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 1.3vw;
+}
+a:hover{
+    background-color: #9fbeff;
+    font-style: normal;
+    color: #cccccc;
+}
+.lor{
+    border: 0.72vw solid #ffc880;
+    border-radius: 0.5vw;
+    background-color: #ffc880;
+}
+.lor-inset{
+    border: 0.5vw solid #ffe2bc;
+    border-radius: 0.25vw;
+    background-color: #ffe2bc;
+}

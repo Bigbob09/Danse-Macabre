@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Editing the browser tab-->
+    <title>Danse Macabre</title>
+    <link rel="icon" type="image/x-icon" href="i/favicon.png">
+    <!--Importing fonts using google fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <!--Importing the CSS and JavaScript files-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--The top-most title display and banner-->
+    <header>
+        <h1>Danse Macabre</h1>
+        <p class="subheading">The Dance of Death</p>
+    </header>
+    <!--The Web-page's contents-->
+    <div class="main">
+        <!--The navigation bar for the website-->
+        <nav>
+            <a href="#whdm">What Is Danse Macabre?</a>
+            <a href="#char">Characters</a>
+        </nav>
+        <!--The 'What is Danse Macabre' element-->
+        <div class="whdm" id="whdm">
+            <h2>What is Danse Macabre? | <button class="dropdown" id="whdm-btn" onclick="whdm_act()"><img src="i/Darrow.png"></button></h2> <!--Title of the elemnt, and drop-down button-->
+            <div class="whdm-inset" id="whdm-inset" style="display: none;"> <!--Drop-down internals for 'What is Danse Macabre'-->
+                <p>Danse Macabre is a fictional lorebook/ artbook project centered around a distopian past where sins are manifested into creatures, and humans have been granted abilities to maintain the ballance of power on the earth.</p>
+                <h3>A brief history:</h3>
+                <p>In the begining, <span class="angelic">He</span> created The earth and bountiful vegitations to acompany it. Then, in <span class="angelic">His</span> lonelyness, <span class="angelic">He</span> took four pieces of <span class="angelic">Himself</span> to create the ideal watchers, the Archangel Gabriel, the Archangel Riphiel, the Archangel Michael, and the Archangel <span class="forbidden">Don't speak of him</span>. Next, <span class="angelic">He</span> created the Heavens, the animals, and the humans. On earth, the watchers guided the humans on earth to aid in their development, making them quickly progress through technological and societal advancements. After many years, humanity developed overindulgence, leading <span class="angelic">Him</span> to make <span class="sin">It</span> <span class="forbidden">What have I done?</span>. <span class="sin">It</span> roamed earth, creating creatures out of sins called manifestations, causing all of the watchers to recoil in disgust, leaving earth and society. They waited for <span class="angelic">Him</span> to answer, but they never got a response. One day, certain humans began developing powers, called awakenings, allowing them to combat the encarnations and restoring the ballence of power in the beings of Earth. </p>
+            </div>
+        </div>
+        <!--The 'Characters' element-->
+        <div class="char" id="char">
+            <h2>Characters | <button class="dropdown" id="char-btn" onclick="char_act()"><img src="i/Darrow.png"></button></h2> <!--Title of the element, and drop-down button-->
+            <div class="char-inset" id="char-inset" style="display: none;"> <!--Drop-down internals for 'Characters'-->
+                <p>Being a loerbook, Danse Macabre has many characters, and due to it still being in development, many of them are unfinished, so some characters may be 'under development'.</p>
+                <h3 style="background-color: #420000; width: 100%; color: #c4c4c4;">Manifestations: <img src="i/Manifestations.gif" style="max-height: 1.5vw;"></h3> <!--Title and icon for the manifestations section-->
+                <div class="manifestations"> <!--Manifestations section-->
+                    <p>Manifestations are the creatures formed and contorted from the sins of our peers, When we cannot contain ourselfes, <i>they</i> arise</p>
+                    <table>
+                        <tr> <!--Hara-Kiri (Cupcake)-->
+                            <th class="manif"><a href="haki.html">Hara-Kiri (Cupcake)</a></th>
+                            <th class="manif">The Rows of a thousand scales swallows the pain of those who wasted it all</th>
+                            <th class="manif" style="background-color: #000000;"><img src="i/Cupcake.png"></th>
+                        </tr>
+                        <tr> <!--Vamp (Bethany)-->
+                            <th class="manif">Vamp (Bethany)</th>
+                            <th class="manif">Sercome to it's screech, clawing at the back of your brain to comply</th>
+                            <th class="manif" style="background-color: #4b4a4a;"><img src="i/bethany.png"></th>
+                        </tr>
+                        <tr> <!--Void-bound (Episkopos)-->
+                            <th class="manif">Void-bound (Episkopos)</th>
+                            <th class="manif">Ripping through reality itself, it stares at you. Dropping yourself to the will of it's judgement</th>
+                            <th class="manif" style="background-color: #3b1829;"><img src="i/episkopos.png"></th>
+                        </tr>
+                    </table>
+                </div>
+                <h3 style="background-color: #ffd596;">Awakenings: <img src="i/awakenings.gif" style="max-height: 1.5vw;"></h3> <!--Awakenings section-->
+                <div class="awakenings">
+                    <p>Awakenings are the humans that have been empowered with special abilities to ballence the power on the world, as <span class="angelic">His</span> last hope</p>
+                    <table>
+                        <tr> <!--Petunias-->
+                            <th class="awak">Petunias</th>
+                            <th class="awak">Froliking through flowers, we should heed to her beauty</th>
+                            <th class="awak"><img src="i/WIP.png"></th>
+                        </tr>
+                        <tr> <!--Apostate-->
+                            <th class="awak">Apostate</th>
+                            <th class="awak">Behold his light, a complex construct of many devistating reflections. They underestimate him, but fear him</th>
+                            <th class="awak"><img src="i/WIP.png"></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--The 'Lore Pages' element-->
+        <div class="lor">
+            <h2>Lore Pages | <button class="dropdown" id="lor-btn" onclick="lor_act()"><img src="i/Darrow.png"></button></h2>
+            <div class="lor-inset" id="lor-inset" style="display: none;">
+                <p>This segment contains all of the lore pages that are a part of Danse Macabre (Excluding the character pages that can be found in the <a href="#char">Characters</a> section)</p>
+                <ul>
+                    <li><a href="dlbotd.html">Divine light's birth of the damned</a></li> <!--Divine light's birth of the damned-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
