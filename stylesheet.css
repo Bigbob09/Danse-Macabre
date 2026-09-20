@@ -94,26 +94,24 @@ table{
     border-collapse: collapse;
     width: 100%;
 }
-th.manif{
+td.manif{
     border: 0.3vw solid #700000;
     border-radius: 0.15vw;
     border-collapse: collapse;
     font-size: 1.5vw;
 }
-th.awak{
+td.awak{
     border: 0.3vw solid #f7d597;
     border-radius: 0.15vw;
     border-collapse: collapse;
     font-size: 1.5vw;
 }
 a{
-    background-color: #4774d6;
     color: #ffffff;
     font-style: normal;
     font-size: 1.3vw;
 }
 a:hover{
-    background-color: #9fbeff;
     font-style: normal;
     color: #cccccc;
 }
